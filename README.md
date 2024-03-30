@@ -1,25 +1,20 @@
 # MATLAB AI Assistant
 
+## How to Use:
+1. Download this Repository to your local MATLAB environment as a zip file.
+2. Replace "api_key" in MATLAB_AI_Assistant/ai_query.m with your OPEN API KEY.
+3. Run addpath(pwd). Now all functions in this package are available in MATLAB.
+4. To test, run "ai_query("what MATLAB function can I use to capitalize a string?")!
+
 ## 🌟 Inspiration
-[replace] We wanted to build a sustainable project which gave us the idea to plant crops on a farmland in a way that would give the farmer the maximum profit. The program also accounts for crop rotation which means that the land gets time to replenish its nutrients and increase the quality of the soil.
+I wanted to build a MATLAB package that would help me learn to use all of the major libraries in MATLAB. Upon thinking about the biggest roadblocks in developing in MATLAB, I realized that I spent a lot of time outside of the development environment. I theorized that I'd be able to program faster if I could ask my questions directly in the MATLAB command window instead of using Google, Stack Overflow, and the MATLAB website.
 
-## 🚀 Overview
-[replace] learned to It does many things, It first checks what crops can be grown in that area or land depending on the weather of the area, the soil, the nutrients in the soil, the amount of precipitation, and much more information that we have got from the APIs that we have used in the project. It then forms a plan which accounts for the crop rotation process. This helps the land regain its lost nutrients while increasing the profits that the farmer is getting from his or her land. This means that without stopping the process of harvesting we are regaining the lost nutrients. It also gives the farmer daily updates on the weather in that area so that he can be prepared for severe weather.
+## 🚀 Overview & Features
+The main functions of this package are to enable asking programming questions directly in the command window and enabling easier access to the official MATLAB docs within the development environment. This combination ends up being helpful and makes it a lot easier to stay inside MATLAB when you're coding, even when you run into questions or errors. This project was coded entirely in MATLAB, utilizes the Open AI API and MATLAB library.
 
-## 🛠️ Features
-[replace] For most of the backend of the program, we used Python. For the front end of the website, we used HTML. To format the website we used CSS. we have also used Javascript for formates and to connect Python to HTML. We used the API of Twilio in order to send daily messages to the user in order to help the user be ready for severe weather conditions.
-- **Real-time Monitoring**: Scans the web continuously for the latest research articles.
-- **Instant Notifications**: Users receive notifications via Twilio the moment relevant content is released.
-- **Tailored Searches**: Integrated with Metaphor's API to ensure searches are specific to a user's interests.
+## 🏗️ Challenges & Accomplishments
+The biggest challenge I faced implementing this was the design of the command window responses and connecting the API's. I tried to ensure that responses are minimalist to ease the amount of clutter in the development environment, which required a lot of output iterations.
 
-## 🏗️ Tech Stack
-- **Frontend**: Flutter
-- **Backend**: Django (Python)
-- **Database**: PostgreSQL
-- **APIs**: Twilio, Metaphor
+What's next for MATLAB AI Assistant
+I plan to utilize this package whenever I'm coding in MATLAB in the future and will see what features I'd like to add as I determine more points where I can add functionality to ease the process of programming.
 
-## 🚀 Challenges & Accomplishments
-[replace] The biggest challenge that we faced during the making of this project was the connection of the Python code with the HTML code. so that the website can display crop rotation patterns after executing the Python back end script.
-
-What's next for ECO-HARVEST
-[replace] For now, the data we have is only limited to the United States, in the future we plan to increase it to the whole world and also increase our accuracy in predicting which crops can be grown in the area. Using the crops that we can grow in the area we want to give better crop rotation models so that the soil will gain its lost nutrients faster. We also plan to give better and more informative daily messages to the user in the future.
